@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		195BAE8B1D343F520073B646 /* highlighter2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highlighter2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195BAE8B1D343F520073B646 /* imagedetector.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imagedetector.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		195BAE8E1D343F520073B646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		195BAE901D343F520073B646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		195BAE921D343F520073B646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		195BAE821D343F520073B646 = {
 			isa = PBXGroup;
 			children = (
-				195BAE8D1D343F520073B646 /* highlighter2 */,
+				195BAE8D1D343F520073B646 /* imagedetector */,
 				195BAE8C1D343F520073B646 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		195BAE8C1D343F520073B646 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				195BAE8B1D343F520073B646 /* highlighter2.app */,
+				195BAE8B1D343F520073B646 /* imagedetector.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		195BAE8D1D343F520073B646 /* highlighter2 */ = {
+		195BAE8D1D343F520073B646 /* imagedetector */ = {
 			isa = PBXGroup;
 			children = (
 				195BAE8E1D343F520073B646 /* AppDelegate.swift */,
@@ -58,15 +58,15 @@
 				195BAE941D343F520073B646 /* Main.storyboard */,
 				195BAE971D343F520073B646 /* Info.plist */,
 			);
-			path = highlighter2;
+			path = imagedetector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		195BAE8A1D343F520073B646 /* highlighter2 */ = {
+		195BAE8A1D343F520073B646 /* imageDetector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 195BAE9A1D343F520073B646 /* Build configuration list for PBXNativeTarget "highlighter2" */;
+			buildConfigurationList = 195BAE9A1D343F520073B646 /* Build configuration list for PBXNativeTarget "imageDetector" */;
 			buildPhases = (
 				195BAE871D343F520073B646 /* Sources */,
 				195BAE881D343F520073B646 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = highlighter2;
-			productName = highlighter2;
-			productReference = 195BAE8B1D343F520073B646 /* highlighter2.app */;
+			name = imageDetector;
+			productName = imagedetector;
+			productReference = 195BAE8B1D343F520073B646 /* imagedetector.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 195BAE861D343F520073B646 /* Build configuration list for PBXProject "highlighter2" */;
+			buildConfigurationList = 195BAE861D343F520073B646 /* Build configuration list for PBXProject "imagedetector" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				195BAE8A1D343F520073B646 /* highlighter2 */,
+				195BAE8A1D343F520073B646 /* imageDetector */,
 			);
 		};
 /* End PBXProject section */
@@ -237,10 +237,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = highlighter2/Info.plist;
+				INFOPLIST_FILE = imagedetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shoheiaoki.highlighter2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoheiaoki.imagedetector;
+				PRODUCT_NAME = imagedetector.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -249,17 +249,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = highlighter2/Info.plist;
+				INFOPLIST_FILE = imagedetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shoheiaoki.highlighter2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shoheiaoki.imagedetector;
+				PRODUCT_NAME = imagedetector.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		195BAE861D343F520073B646 /* Build configuration list for PBXProject "highlighter2" */ = {
+		195BAE861D343F520073B646 /* Build configuration list for PBXProject "imagedetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				195BAE981D343F520073B646 /* Debug */,
@@ -268,13 +268,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		195BAE9A1D343F520073B646 /* Build configuration list for PBXNativeTarget "highlighter2" */ = {
+		195BAE9A1D343F520073B646 /* Build configuration list for PBXNativeTarget "imageDetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				195BAE9B1D343F520073B646 /* Debug */,
 				195BAE9C1D343F520073B646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

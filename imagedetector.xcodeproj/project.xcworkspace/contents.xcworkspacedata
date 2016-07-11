@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:highlighter2.xcodeproj">
+      location = "self:/Users/shohei/Downloads/imagedetector/imagedetector.xcodeproj">
    </FileRef>
 </Workspace>
